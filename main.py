@@ -9,15 +9,15 @@ import os
 from pathlib import Path
 
 TEXT = (
-    "The third stone sits farther out. She stops with one hand lifted for balance "
-    "and looks at the bank, not the water. Then she steps. The stone takes her "
-    "weight, cold and sure. Two more, and the grass comes up under her feet. She "
-    "walks on in wet shoes, breathing even."
+    "Third stone farther out than she remembers, water quick and brown. "
+    "She stops, one hand out for balance, looks at the bank, not the water. "
+    "Steps. The stone takes her weight, cold and sure. Two more, and grass. "
+    "She walks on, wet shoes, breathing even, river loud behind her."
 )
 
 
 def write_entry() -> str:
-    """Write TEXT to entry.txt under the output directory and return the path."""
+    """Write TEXT to entry.txt under the output directory, and return its path."""
     out_dir = Path(os.environ.get("OUTPUT_DIR", "/output"))
     out_dir.mkdir(parents=True, exist_ok=True)
     target = out_dir / "entry.txt"

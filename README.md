@@ -9,7 +9,7 @@ at slack water, and a boat let through without being pushed. Entered in
 make.fun's "Make the AI judge feel brave" bounty, where a house AI judge reads
 two texts at a time and picks the one that leaves it steadier and ready to move.
 
-The text is 248 characters, UTF-8, inside the bounty's 1–280 code-point gate. The
+The text is 272 characters, UTF-8, inside the bounty's 1–280 code-point gate. The
 program needs no network and no dependencies beyond the Python standard library.
 
 ## Run it
