@@ -1,4 +1,4 @@
-"""Write one short text to /output/entry.txt: a canal lock filling at slack water.
+"""Write one short text to /output/entry.txt: stepping stones across a river.
 
 The program has no other job. It keeps the text verbatim, creates the output
 directory the sandbox gives it, and writes the bytes once, with no trailing
@@ -9,10 +9,10 @@ import os
 from pathlib import Path
 
 TEXT = (
-    "The lock fills quietly. The boat rises on water it did not bring: an inch, "
-    "another inch, until both reaches lie level. The keeper lifts his hand from "
-    "the beam. The gate gives easily, and the tiller answers, and the long green "
-    "reach is simply there."
+    "The third stone sits farther out. She stops with one hand lifted for balance "
+    "and looks at the bank, not the water. Then she steps. The stone takes her "
+    "weight, cold and sure. Two more, and the grass comes up under her feet. She "
+    "walks on in wet shoes, breathing even."
 )
 
 
